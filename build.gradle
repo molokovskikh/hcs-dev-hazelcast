@@ -1,7 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'application' 
 
-mainClassName = "com.hazelcast.console.ConsoleApp"
+mainClassName = "com.hazelcast.console.ConsoleApp" //Как кластер
+//mainClassName = "com.hazelcast.client.console.ClientConsoleApp" //Как клиент кластера
+//mainClassName = "com.hazelcast.core.server.StartServer" //Кластер без консоли 
+//applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G","-Dhazelcast.config=/home/hazelcast.xml",]
 //applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G"]
 
 repositories {
