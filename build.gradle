@@ -5,7 +5,7 @@ mainClassName = "com.hazelcast.console.ConsoleApp" //Как кластер
 //applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G"]
 
 //mainClassName = "com.hazelcast.client.console.ClientConsoleApp" //Как клиент кластера
-//applicationDefaultJvmArgs = ["-Dhazelcast-client.config=/home/hazelcast-client.xml"]
+//applicationDefaultJvmArgs = ["-Dhazelcast.client.config=/home/hazelcast-client.xml"]
 
 //mainClassName = "com.hazelcast.core.server.StartServer" //Кластер без консоли 
 //applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G","-Dhazelcast.config=/home/hazelcast.xml"]
