@@ -2,10 +2,14 @@ apply plugin: 'java'
 apply plugin: 'application' 
 
 mainClassName = "com.hazelcast.console.ConsoleApp" //Как кластер
-//mainClassName = "com.hazelcast.client.console.ClientConsoleApp" //Как клиент кластера
-//mainClassName = "com.hazelcast.core.server.StartServer" //Кластер без консоли 
-//applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G","-Dhazelcast.config=/home/hazelcast.xml",]
 //applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G"]
+
+//mainClassName = "com.hazelcast.client.console.ClientConsoleApp" //Как клиент кластера
+//applicationDefaultJvmArgs = ["-Dhazelcast-client.config=/home/hazelcast-client.xml"]
+
+//mainClassName = "com.hazelcast.core.server.StartServer" //Кластер без консоли 
+//applicationDefaultJvmArgs = ["-Xms2G", "-Xmx4G","-Dhazelcast.config=/home/hazelcast.xml"]
+//PLACE for xml config there -> src/main/resources
 
 repositories {
     jcenter()
